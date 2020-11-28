@@ -1,0 +1,46 @@
+.home-healthcare {
+  &.owl-theme {
+    .owl-nav {
+      [class*="owl-"] {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin: 0;
+        width: 45px;
+        height: 45px;
+        background: rgba(255, 255, 255, 0.1);
+        line-height: 42px;
+        font-size: 30px;
+        border-radius: 5px;
+        margin-top: -25px;
+        transition: 0.4s;
+        &.owl-next {
+          left: auto;
+          right: 10px;
+        }
+        &:hover {
+          background: $template_color;
+        }
+      }
+    }
+  }
+  .main-banner {
+    background: {
+      position: center;
+      size: cover;
+      repeat: no-repeat;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: $black;
+      z-index: -1;
+      opacity: 0.95;
+    }
+  }
+}

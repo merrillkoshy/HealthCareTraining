@@ -1,4 +1,14 @@
-@import "../css/index.css";
-@import "~swiper/swiper.scss";
-@import "./header.scss";
-@import "./swiper_styles.scss";
+@import "variables";
+@import "preloader";
+@import "main";
+@import "navBar";
+@import "header";
+@import "footer";
+@import "about";
+@import "swiper_styles";
+@import "../css/animate.css";
+@import "../css/icofont.min.css";
+// @import "../css/index.css";
+@import "../css/bootstrap.min.css";
+
+@import "../css/pe-icon-7-stroke.css";

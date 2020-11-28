@@ -1,0 +1,117 @@
+.footer-area {
+  position: relative;
+  z-index: 1;
+
+  .single-footer-widget {
+    .logo {
+      display: block;
+      margin-bottom: 20px;
+      img {
+        max-width: 110px;
+        height: auto;
+      }
+    }
+    p {
+      margin-bottom: 0;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+
+      &.social-list {
+        margin-top: 20px;
+
+        li {
+          display: inline-block;
+          margin-right: 10px;
+
+          a {
+            color: $black;
+
+            &:hover {
+              color: $template_color;
+            }
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      &.list {
+        li {
+          margin-bottom: 9px;
+
+          a {
+            display: block;
+            color: $paragraph_color;
+            font-weight: 600;
+
+            &:hover {
+              color: $template_color;
+              padding-left: 7px;
+            }
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    h3 {
+      font: {
+        size: 23px;
+        weight: 700;
+      }
+      margin-bottom: 25px;
+    }
+  }
+  &.bg-image {
+    background: {
+      image: url(/images/footer-shape.png);
+      position: center;
+      size: cover;
+      repeat: no-repeat;
+    }
+  }
+}
+.copyright-area {
+  padding: 30px 0;
+  margin-top: 100px;
+  border-top: 1px solid #eeeeee;
+
+  ul {
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      position: relative;
+      padding-left: 17px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 5px;
+        background: $template_color2;
+        width: 2px;
+        height: 12px;
+      }
+      &:first-child {
+        &::before {
+          display: none;
+        }
+      }
+      a {
+        color: $paragraph_color;
+
+        &:hover {
+          color: $template_color;
+        }
+      }
+    }
+  }
+}
