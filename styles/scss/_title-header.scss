@@ -1,0 +1,27 @@
+/*================================================
+Page Title CSS
+=================================================*/
+.page-title-banner {
+  position: relative;
+  background: $template_color2;
+  z-index: 1;
+  padding: {
+    top: 200px;
+    bottom: 120px;
+  }
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    font: {
+      size: 35px;
+      weight: 700;
+    }
+    color: $white;
+  }
+  .bubble-animate {
+    .circle {
+      background: $white;
+    }
+  }
+}
