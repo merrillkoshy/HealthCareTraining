@@ -60,7 +60,7 @@ class SideDrawer extends React.Component {
                     </li>
                     <li>
                       <Link href="/faq">
-                        <a>FAQ</a>
+                        <a>FAQs</a>
                       </Link>
                     </li>
                     <li>
@@ -79,13 +79,13 @@ class SideDrawer extends React.Component {
                       <i className="icofont-google-map"></i>
                       Address
                       <span>
-                        1660 Travis Street Miramar, FL 33025, California
+                        124, Somewhere in Dubai, DubaiStreet, Dubai, UAE
                       </span>
                     </li>
                     <li>
                       <i className="icofont-email"></i>
                       Email
-                      <span>admin@healthcareapp.com</span>
+                      <span>admin@k2w.com</span>
                     </li>
                     <li>
                       <i className="icofont-phone"></i>

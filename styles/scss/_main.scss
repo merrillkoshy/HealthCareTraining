@@ -1,3 +1,37 @@
+.k2w-button {
+  background: $template_color;
+  color: $template_color2;
+  border: 1px solid $template_color2;
+  &:hover {
+    color: $template_color;
+    background-color: $template_color2;
+    border-color: $template_color;
+  }
+}
+.login-area {
+  .login-image {
+    img {
+      width: 100%;
+    }
+  }
+  .forgot-password {
+    a {
+      color: $template_color2;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: $template_color;
+      }
+    }
+  }
+  .sign-up {
+    color: $template_color2;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $template_color;
+    }
+  }
+}
+
 .main-banner {
   height: 840px;
   background: $template_color;
@@ -31,6 +65,8 @@
       }
     }
     .btn-primary {
+      color: $template_color;
+      background: $template_color2;
       &:not(:disabled):not(.disabled).active,
       &:not(:disabled):not(.disabled):active,
       .show > .btn-primary.dropdown-toggle {

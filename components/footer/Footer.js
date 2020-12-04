@@ -14,9 +14,10 @@ class Footer extends React.Component {
                   </a>
                 </Link>
                 <p>
-                  Plan ahead by day, week, or month, and see project status at a
-                  glance. Search and filter to focus in on anything form a
-                  single project individual.
+                  Providing total medical training solutions for best
+                  opportunities to update knowledge, skills and practices of
+                  health professionals & achieve health certifications under the
+                  supervision of International faculty.
                 </p>
 
                 <ul className="social-list">
@@ -54,37 +55,27 @@ class Footer extends React.Component {
 
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget pl-5">
-                <h3>Company</h3>
+                <h3>Courses</h3>
 
                 <ul className="list">
                   <li>
                     <Link href="#">
-                      <a>About</a>
+                      <a>Search Courses</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>Carrers</a>
+                      <a>Download Brochure</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>Awards</a>
+                      <a>Course Registration & Payment</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>User Program</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a href="#">Locations</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>Login</a>
+                      <a>Access</a>
                     </Link>
                   </li>
                 </ul>
@@ -93,37 +84,27 @@ class Footer extends React.Component {
 
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget">
-                <h3>Products</h3>
+                <h3>Media</h3>
 
                 <ul className="list">
                   <li>
                     <Link href="#">
-                      <a>Integrations</a>
+                      <a> Research</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>API</a>
+                      <a>Industry updates</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>Pricing</a>
+                      <a>Blogs</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <a>Documentation</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>Sign Up</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>Release Notes</a>
+                      <a> Features Talks</a>
                     </Link>
                   </li>
                 </ul>
@@ -132,27 +113,32 @@ class Footer extends React.Component {
 
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget">
-                <h3>Support</h3>
+                <h3>About Us</h3>
 
                 <ul className="list">
                   <li>
                     <Link href="#">
-                      <a>About</a>
+                      <a>Location</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#">
+                      <a>Accreditations</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#">
+                      <a>Certifications</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#">
+                      <a>Partners</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
                       <a>Contact</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>FAQ</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a>Press</a>
                     </Link>
                   </li>
                 </ul>
@@ -165,7 +151,7 @@ class Footer extends React.Component {
           <div className="container">
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-6 col-md-6">
-                <p>Copyright @2020 Healthcare App. All rights reserved</p>
+                <p>Copyright @2020 Knowledge To Wisdom. All rights reserved</p>
               </div>
 
               <div className="col-lg-6 col-md-6">

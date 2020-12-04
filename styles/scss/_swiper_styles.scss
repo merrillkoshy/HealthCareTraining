@@ -20,6 +20,9 @@
         }
         &:hover {
           background: $template_color;
+          i[class*="icofont-bubble"] {
+            color: $template_color2;
+          }
         }
       }
     }
